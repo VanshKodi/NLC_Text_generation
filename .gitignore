@@ -1,0 +1,32 @@
+# --- Project-Specific Directories ---
+# Ignore all data, experimental models, and final models.
+/2.data/
+/3.model/
+/1.notebooks/models/
+
+# --- Jupyter Notebook ---
+# Ignore the checkpoints directory created by Jupyter.
+/.ipynb_checkpoints/
+1.notebooks/.ipynb_checkpoints/
+
+# --- Python ---
+# Ignore virtual environment folders.
+/venv/
+/env/
+/.env
+
+# Ignore Python bytecode and cache.
+__pycache__/
+*.pyc
+
+# --- IDE & OS Specific ---
+# VSCode, PyCharm, etc.
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
