@@ -2,7 +2,7 @@
 # Ignore all data, experimental models, and final models.
 /2.data/
 /3.model/
-/1.notebooks/models/
+
 
 # --- Jupyter Notebook ---
 # Ignore the checkpoints directory created by Jupyter.
