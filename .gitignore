@@ -1,6 +1,7 @@
 # --- Project-Specific Directories ---
 # Ignore all data, experimental models, and final models.
 /2.data/
+2.data/
 /3.model/
 
 
