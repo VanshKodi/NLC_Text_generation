@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files - It's good practice to not commit large data files
+# Adjust the path according to your project structure
+*.csv
+*.json
+*.parquet
+/data/
+/2.data/
+
+# Model files - Models can be very large
+/models/
+/3.model/
+*.pkl
+*.joblib
+*.h5
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS-generated files
+.DS_Store
+Thumbs.db
